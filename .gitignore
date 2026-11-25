@@ -221,3 +221,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# secrets and local config
+.env
+*.p8
+*.pem
+*.pub
+env.local.ps1
+airflow/include/keys/
+airflow_settings.yaml
+
+# data and build output
+data/
+*.csv.gz
+target/
+dbt_packages/
+logs/
+.venv/
+.astro/
